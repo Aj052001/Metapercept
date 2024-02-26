@@ -1,0 +1,36 @@
+/* NavBar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Adding box shadow */
+    background-color: #ffff;
+    color: rgb(20, 18, 18);
+  }
+  
+  .left-section {
+    font-size: 1.5rem;
+  }
+  
+  .right-section {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .right-section a {
+    text-decoration: none;
+    color: rgb(14, 11, 11);
+  }
+  
+  button {
+    padding: 8px 16px;
+    border-color: green;
+    background-color: #b9bac2;
+    color: rgb(12, 9, 9);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

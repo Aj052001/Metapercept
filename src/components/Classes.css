@@ -1,0 +1,34 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flex-item {
+    width: calc(33.33% - 20px); /* Adjust the width and margin as needed */
+    margin: 0 10px;
+    box-sizing: border-box;
+  }
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .main-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .main-about {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .blogs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 5000px;
+  }
